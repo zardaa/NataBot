@@ -29,10 +29,11 @@ Script ini di modifikasi sama saya NataBot.
 > termux-setup-storage
 > pkg install git && pkg install tesseract && pkg install wget && pkg install ffmpeg && pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/A187ID/AR15BOT
-> cd AR15BOT
-> npm i -g cwebp && npm i node-tesseract-ocr && npm i -g ytdl && npm i  && npm i got && node index js
-> Tinggal scan kode qr yeee...done
+> git clone https://github.com/zardaa/NataBot
+> cd NataBot
+> npm i -g cwebp && npm i node-tesseract-ocr
+> npm i -g ytdl && npm i  && npm i got && node index js
+> Tinggal scan kode qr dan selesain deh
 ```
 
 ## FEATURES  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
