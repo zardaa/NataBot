@@ -1,7 +1,7 @@
 /*
 * JANGAN UBAH-UBAH INFO!!!
 * "JANGAN MODAL NAMA DOANG BRO!!!"
-* SCRIPT BY ARIS187 ID
+* SCRIPT BY NataBot
 * JANGAN MODAL NAMA DOANG BOSQ
 * HARGAILAH YG MEMBUAT SCRIPT INI BOSQ
 * JANGAN UBAH-UBAH INFO!!!
@@ -18,17 +18,15 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾AR15BOT👾',
-    instagram: 'https://instagram.com/_sadboy.ig',
-    nomer: 'wa.me/6285722553839',
+    ZARDA: '💀NataBot💀',
+    instagram: 'https://instagram.com/ridwan._.anugrah',
+    nomer: 'wa.me/6282397075810',
     aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
-    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
 
-const { A187, tanggal, waktu, instagram, whatsapp, youtube, nomer, aktif, ontime } = config
+const { ZARDA, tanggal, waktu, instagram, nomer, aktif, ontime } = config
 
 const
 {
@@ -50,7 +48,7 @@ const {
     menu2,
     menu3,
     info,
-    donate,
+    donasi,
     alay,
     artinama,
     corona,
@@ -71,14 +69,12 @@ const {
     wiki,
     ytdl,
     bucin,
-    cersex,
     cerpen,
     puisi1,
     puisi2,
     resep,
     namaninja,
     bitly,
-    nekonime,
     cektanggal,
     chord,
     zodiak,
@@ -94,7 +90,6 @@ const {
     ytmp3,
     ssweb,
     infogempa,
-    indohot,
     loli,
     ttp,
     map,
@@ -109,7 +104,7 @@ const client = new WAConnection()
 
 client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(`[ ${time} ] QR code is ready, subscribe Aris187 ID`)
+   console.log(`[ ${time} ] QR code is ready, SELAMAT MENCOBA`)
 })
 
 client.on('credentials-updated', () => {
@@ -127,7 +122,7 @@ client.connect();
 
 client.on('message-status-update', json => {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${time} ] => bot by ig:@_sadboy.ig`)
+   console.log(`[ ${time} ] => bot by ig:ridwan._.anugrah`)
 })
 
 client.on('message-new', async (m) => {
@@ -145,30 +140,212 @@ client.on('message-new', async (m) => {
    const prefix = messageType === 'imageMessage' ? imageMessage.caption.split(' ')[0].split(re)[1] : text.split(' ')[0].split(re)[1] // multiple prefix
 
    console.log(`[ ${time} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
+	
+//Chat NataBot
+else if (text == 'assalamualaikum'){
+conn.sendMessage(id, 'Waalaikumsalam' ,MessageType.text);
+}
+else if (text == 'ass'){
+conn.sendMessage(id, 'Waalaikumsalam' ,MessageType.text);
+}
+else if (text == 'Ass'){
+conn.sendMessage(id, 'Waalaikumsalam' ,MessageType.text);
+}
+else if (text == 'Assalamualaikum'){
+conn.sendMessage(id, 'Waalaikumsalam' ,MessageType.text);
+}
+else if (text == 'p'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'P'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Halo'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Asu'){
+conn.sendMessage(id, 'sadar goblok' ,MessageType.text);
+}
+else if (text == 'asu'){
+conn.sendMessage(id, 'sadar goblok' ,MessageType.text);
+}
+else if (text == '!owner'){
+conn.sendMessage(id, 'Owner wa.me/+6282397075810' ,MessageType.text);
+}
+else if (text == 'Ridwan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'Iwan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'ridwan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'iwan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'Wawan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'Wan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'wawan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'Dahlah'){
+conn.sendMessage(id, 'ciee ngambek' ,MessageType.text);
+}
+else if (text == 'Dah lah'){
+conn.sendMessage(id, 'ciee ngambek' ,MessageType.text);
+}
+else if (text == 'dahlah'){
+conn.sendMessage(id, 'ciee ngambek' ,MessageType.text);
+}
+else if (text == 'dah lah'){
+conn.sendMessage(id, 'ciee ngambek' ,MessageType.text);
+}
+else if (text == 'wan'){
+conn.sendMessage(id, 'pacar bot nih' ,MessageType.text);
+}
+else if (text == 'Goblok'){
+conn.sendMessage(id, 'sadar goblok' ,MessageType.text);
+}
+else if (text == 'goblok'){
+conn.sendMessage(id, 'sadar goblok' ,MessageType.text);
+}
+else if (text == 'Bangsat'){
+conn.sendMessage(id, 'napa goblok' ,MessageType.text);
+}
+else if (text == 'Ngentod'){
+conn.sendMessage(id, 'napa lu? pengin ngentod?' ,MessageType.text);
+}
+else if (text == 'Anjing'){
+conn.sendMessage(id, 'mungkin lu yang anjing' ,MessageType.text);
+}
+else if (text == 'Bacot'){
+conn.sendMessage(id, 'lu bacot_-' ,MessageType.text);
+}
+else if (text == 'bangsat'){
+conn.sendMessage(id, 'napa goblok' ,MessageType.text);
+}
+else if (text == 'ngentod'){
+conn.sendMessage(id, 'napa lu? pengin ngentod?' ,MessageType.text);
+}
+else if (text == 'anjing'){
+conn.sendMessage(id, 'mungkin lu yang anjing' ,MessageType.text);
+}
+else if (text == 'Bacot'){
+conn.sendMessage(id, 'lu yang bacot goblok' ,MessageType.text);
+}
+else if (text == 'Test'){
+conn.sendMessage(id, 'Test 1,2,3' ,MessageType.text);
+}
+else if (text == 'Hai'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == '!ttp'){
+conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6282397075810* ' ,MessageType.text);
+}
+else if (text == 'Woi'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Eoy'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Hi'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Gan'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Sis'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Bro'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Min'){
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+}
+else if (text == 'Sayang'){
+conn.sendMessage(id, 'najis' ,MessageType.text);
+}
+else if (text == 'I love u'){
+conn.sendMessage(id, 'najis' ,MessageType.text);
+}
+else if (text == 'sayang'){
+conn.sendMessage(id, 'najis' ,MessageType.text);
+}
+else if (text == 'i love u'){
+conn.sendMessage(id, 'najis' ,MessageType.text);
+}
+else if (text == 'Mas'){
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+}
+else if (text == 'Mba'){
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+}
+else if (text == 'Bre'){
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+}
+else if (text == 'Cuy'){
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+}
+else if (text == '.frendsowner'){
+conn.sendMessage(id, 'kawan1 iskandar wa.me/+628165466368' ,MessageType.text);
+}
+else if (text == 'Euy'){
+conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
+}
+else if (text == 'makasi'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
+else if (text == 'Makasi'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
+else if (text == 'makasih'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
+else if (text == 'Makasih'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
+else if (text == 'thank'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
+else if (text == 'Thank'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
+else if (text == 'thanks'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
+else if (text == 'Thanks'){
+conn.sendMessage(id, 'Sama sama' ,MessageType.text);
+}
 
    switch (prefix) {
        case 'help':
-           client.sendMessage(id, help.help(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, help.help(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break
        case 'menu1':
-           client.sendMessage(id, menu1.menu1(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, menu1.menu1(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break
        case 'menu2':
-           client.sendMessage(id, menu2.menu2(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, menu2.menu2(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break
        case 'menu3':
-           client.sendMessage(id, menu3.menu3(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, menu3.menu3(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break
-      case 'donate':
-           client.sendMessage(id, donate.donate(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+      case 'donasi':
+           client.sendMessage(id, donasi.donate(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break          
       case 'info':
-           client.sendMessage(id, info.info(id, A187, tanggal, waktu, whatsapp, youtube, instagram,aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, info.info(id, ZARDA, tanggal, waktu,, instagram,aktif, nomer, ontime), MessageType.text)
            break             
        case 'nulis':
            nulis(value)
                .then(data => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, data, MessageType.image)
                })
                .catch(err => {
@@ -183,7 +360,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                    const { judul, size, hasil: link } = data
                    let hasil = `✅ Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawah🗡️\n\nJudul: ${judul}\n\nUkuran audio: ${size}\n\nLink: ${link}`
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, hasil, MessageType.text)
                })
                .catch(err => {
@@ -195,7 +372,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                    const { judul, size, hasil: link } = data
                    let hasil = `✅ Video Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawah🗡️\n\nJudul: ${judul}\n\nUkuran audio: ${size}\n\nLink: ${link}`
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, hasil, MessageType.text)
                })
                .catch(err => {
@@ -207,7 +384,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                     const { size, hasil: link } = data
                     let hasil = `✅ Berhasil! silahkan klik link di bawah untuk mendownload hasilnya!\nKlik link dibawah🗡️\n\nSize: ${size}\n\nLink: ${link}`
-                    client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                    client.sendMessage(id, '[❗] WAIT', MessageType.text)
                     client.sendMessage(id, hasil ,MessageType.text)
                })
                .catch(err => {
@@ -324,7 +501,7 @@ client.on('message-new', async (m) => {
                case 'cewek':
                    cewePict()
                        .then(buffer => {
-                           client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                           client.sendMessage(id, '[❗] WAIT', MessageType.text)
                            client.sendMessage(id, buffer, MessageType.image)
                        })
                        .catch(err => {
@@ -334,7 +511,7 @@ client.on('message-new', async (m) => {
                case 'cowok':
                    cowoPict()
                        .then(buffer => {
-                           client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                           client.sendMessage(id, '[❗] WAIT', MessageType.text)
                            client.sendMessage(id, buffer, MessageType.image)
                        })
                        .catch(err => {
@@ -349,7 +526,7 @@ client.on('message-new', async (m) => {
        case 'animepict':
            animPict()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -673,7 +850,7 @@ case 'filmanime':
            case 'map':
            map()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -683,7 +860,7 @@ case 'filmanime':
            case 'waifu':
            waifu()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -693,7 +870,7 @@ case 'filmanime':
       case 'loli':
            loli()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -703,7 +880,7 @@ case 'filmanime':
            case 'ssweb':
            ssweb()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -713,7 +890,7 @@ case 'filmanime':
      case 'cooltext':
            cooltext()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -723,7 +900,7 @@ case 'filmanime':
            case 'ttp':
            ttp()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -733,7 +910,7 @@ case 'filmanime':
            case 'nekonime':
            nekonime()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -743,7 +920,7 @@ case 'filmanime':
            case 'ytmp3':
            mp3()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
