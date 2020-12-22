@@ -1,4 +1,4 @@
-## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> I'm NataBot
+## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> NataBot
 
 
 <p align="center">
@@ -18,7 +18,7 @@ Siapin alat dan bahannya.
 ```
 
 CARA INSTALLNYA
-Script ini di modifikasi sama saya sendiri Aris187 ID.
+Script ini di modifikasi sama saya NataBot.
 ```bash
 > kalo lu belum punya apk termux, download di playstore
 > masuk ke apk termux lalu ketik dibawah ini!
@@ -60,14 +60,12 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 |       ✅       | Say                              |
 |       ✅       | Toxic (new)                      |
 |       ✅       | loli                             |
-|       ✅       | hentai                           |
 |       ✅       | Owner (new)                      |
 |       ✅       | kata bijak                       |
 |       ✅       | Fakta                            |
 |       ✅       | Pokemon                          |
 |       ✅       | Info                             |
-|       ✅       | Donate                           |
-|       ✅       | 18+.                             |
+|       ✅       | Donasi                           |
 |                   MORE  Fitur                     |
 
 Ket: Aktiv 24 jam
