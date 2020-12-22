@@ -367,7 +367,7 @@ conn.sendMessage(id, 'Sama sama' ,MessageType.text);
            client.sendMessage(id, donasi.donate(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break          
       case 'info':
-           client.sendMessage(id, info.info(id, ZARDA, tanggal, waktu,, instagram,aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, info.info(id, ZARDA, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
            break             
        case 'nulis':
            nulis(value)
