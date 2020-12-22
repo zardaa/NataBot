@@ -1,6 +1,6 @@
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> NataBot
 <p align="center">
-<img src="https://raw.githubusercontent.com/zardaa/NataBot/main/temp/NataBot.jpg" width="960" height="960"/>
+<img src="https://raw.githubusercontent.com/zardaa/NataBot/main/temp/NataBot.jpg" width="350" height="350"/>
 </p>
 <br>
 
