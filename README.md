@@ -1,6 +1,14 @@
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> NataBot
+<p align="center">
+<img src="https://raw.githubusercontent.com/zardaa/NataBot/main/temp/NataBot.jpg" width="960" height="960"/>
+</p>
+<br>
 
 
+
+<p align="center">
+<a href="#"><img title="👾AR15BOT👾" src="https://img.shields.io/badge/NataBot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
 
 ALAT DAN BAHAN
 Siapin alat dan bahannya.
