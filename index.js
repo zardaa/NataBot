@@ -182,13 +182,13 @@ else if (text == 'Assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam' ,MessageType.text);
 }
 else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'P'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Halo'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Asu'){
 conn.sendMessage(id, 'sadar goblok' ,MessageType.text);
@@ -269,31 +269,31 @@ else if (text == 'Test'){
 conn.sendMessage(id, 'Test 1,2,3' ,MessageType.text);
 }
 else if (text == 'Hai'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == '!ttp'){
 conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6282397075810* ' ,MessageType.text);
 }
 else if (text == 'Woi'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Eoy'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Hi'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Gan'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Sis'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Bro'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Min'){
-conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donate Contoh !help' ,MessageType.text);
 }
 else if (text == 'Sayang'){
 conn.sendMessage(id, 'najis' ,MessageType.text);
@@ -308,22 +308,22 @@ else if (text == 'i love u'){
 conn.sendMessage(id, 'najis' ,MessageType.text);
 }
 else if (text == 'Mas'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donate Contoh #help' ,MessageType.text);
 }
 else if (text == 'Mba'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donate Contoh #help' ,MessageType.text);
 }
 else if (text == 'Bre'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donate Contoh #help' ,MessageType.text);
 }
 else if (text == 'Cuy'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donate Contoh #help' ,MessageType.text);
 }
 else if (text == '.frendsowner'){
 conn.sendMessage(id, 'kawan1 iskandar wa.me/+628165466368' ,MessageType.text);
 }
 else if (text == 'Euy'){
-conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donate Contoh .help' ,MessageType.text);
 }
 else if (text == 'makasi'){
 conn.sendMessage(id, 'Sama sama' ,MessageType.text);
@@ -363,8 +363,8 @@ conn.sendMessage(id, 'Sama sama' ,MessageType.text);
        case 'menu3':
            client.sendMessage(id, menu3.menu3(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break
-      case 'donasi':
-           client.sendMessage(id, donasi.donate(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
+      case 'donate':
+           client.sendMessage(id, donate.donate(id, ZARDA, tanggal, waktu, instagram, aktif, nomer, ontime), MessageType.text)
            break          
       case 'info':
            client.sendMessage(id, info.info(id, ZARDA, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
