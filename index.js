@@ -128,6 +128,9 @@ client.on('message-new', async (m) => {
    let id = m.key.remoteJid
    const messageType = Object.keys(messageContent)[0] // message will always contain one key signifying what kind of message
    let imageMessage = m.message.imageMessage
+   const re = /[\#\!\@\/\?\%\$\.]/
+   const value = text.split(' ').splice(1).join(' ')
+   const prefix = messageType === 'imageMessage' ? imageMessage.caption.split(' ')[0].split(re)[1] : text.split(' ')[0].split(re)[1] // multiple prefix
    console.log(`[ ${moment().format("HH:mm:ss")} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
 // Groups
 
