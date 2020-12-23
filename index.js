@@ -83,7 +83,6 @@ const {
     wikien,
     covidcountry,
     infoanime,
-    loli,
     gay,
     ytmp3,
     ssweb,
