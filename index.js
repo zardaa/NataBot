@@ -122,21 +122,15 @@ client.on('message-status-update', json => {
    console.log(`[ ${time} ] => bot by ig:ridwan._.anugrah`)
 })
 
-client.on('message-new', async (m) => {
+conn.on('message-new', async(m) =>
+{
    const messageContent = m.message
    const text = m.message.conversation
-   const messageType = Object.keys(messageContent)[0]
-
-   const re = /[\#\!\@\/\?\%\$\.]/
-
-   const value = text.split(' ').splice(1).join(' ')
-
    let id = m.key.remoteJid
-   let imageMessage = m.message.imageMessage
-
-   const prefix = messageType === 'imageMessage' ? imageMessage.caption.split(' ')[0].split(re)[1] : text.split(' ')[0].split(re)[1] // multiple prefix
-
-   console.log(`[ ${time} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
+   const messageType = Object.keys(messageContent)[0] // message will always contain one key signifying what kind of message
+   const re = /[\#\!\@\/\?\%\$\.]/
+   let imageMessage = m.message.imageMessage;
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
 // Groups
 
 if (text.includes(".buatgrup"))
@@ -155,7 +149,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 
 }
 
-// FF XP-TN
+// FF NataBot
 if(text.includes(".cek")){
 var num = text.replace(/.cek/ , "")
 var idn = num.replace("0","+62");
