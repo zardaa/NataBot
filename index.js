@@ -122,14 +122,12 @@ client.on('message-status-update', json => {
    console.log(`[ ${time} ] => bot by ig:ridwan._.anugrah`)
 })
 
-conn.on('message-new', async(m) =>
-{
+client.on('message-new', async (m) => {
    const messageContent = m.message
    const text = m.message.conversation
    let id = m.key.remoteJid
    const messageType = Object.keys(messageContent)[0] // message will always contain one key signifying what kind of message
-   const re = /[\#\!\@\/\?\%\$\.]/
-   let imageMessage = m.message.imageMessage;
+   let imageMessage = m.message.imageMessage
    console.log(`[ ${moment().format("HH:mm:ss")} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
 // Groups
 
